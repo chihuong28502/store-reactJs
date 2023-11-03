@@ -1,0 +1,52 @@
+@media only screen and (max-width: 767.9px) {
+  .home-contact__content {
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+  }
+  .home-contact__form p {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .home-contact__form input,
+  .home-contact__form button {
+    padding: 1.6rem;
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 2.4rem;
+    margin-left: 0;
+  }
+  .home-contact .image {
+    display: none;
+  }
+  .home-contact {
+    display: block;
+  }
+  .allInfo {
+    display: block;
+  }
+  .info {
+    margin: 3rem 0;
+  }
+  .info:first-child {
+    margin: 0;
+  }
+  .rps-home-frm {
+    display: block !important;
+  }
+  /* products */
+  .all-product h4 {
+    font-size: 1.6rem;
+  }
+
+  /* news */
+  #map-link-bar {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .box-news h4 {
+    color: #bd945f;
+    font-size: 1.6rem;
+    margin: 3.2rem 0;
+  }
+}

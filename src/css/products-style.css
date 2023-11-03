@@ -1,0 +1,103 @@
+.wrap-all-products {
+  background: #f3f3f3;
+  margin-top: 8rem;
+}
+.all-product__item {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 5rem;
+}
+.all-product__item--title {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.2rem 3.2rem 0 3.2rem;
+}
+.product-card {
+  padding: 0.5rem;
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 3.2rem;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+}
+.all-product__item .row {
+  padding: 0 3.2rem;
+}
+.product-card__image {
+  width: 100%;
+  height: 13rem;
+  object-fit: cover;
+}
+.all-product h4 {
+  font-size: 2.4rem;
+}
+.all-product h4:after {
+  left: 0;
+  transform: none;
+}
+.product-card__content {
+  margin-top: 1.6rem;
+  text-align: center;
+}
+.product-card__content .title {
+  color: #2c2e53;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.product-card__content .old-price {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #888888;
+  text-decoration: line-through;
+}
+.product-card__content .new-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222222;
+}
+.all-product__item--title .see-all:hover {
+  color: #bd945f;
+}
+.all-product__item--title .see-all {
+  font-size: 1.6rem;
+}
+.product-card__group-btn .btn {
+  font-size: 1.6rem;
+  color: #bd945f;
+  padding: 0.8rem 1.2rem;
+  border: 2px solid #bd945f;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  transition: 300ms ease-out;
+}
+.product-card:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 7px 0 rgb(0 0 0 / 35%);
+}
+.product-card:hover .product-card__group-btn {
+  display: flex;
+  transition: all 0.3s linear;
+}
+.product-card:hover .product-card__group-btn .btn {
+  visibility: visible;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.product-card__group-btn .btn:hover {
+  background-color: #ce754c;
+}
+.product-card__group-btn {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  gap: 0.75rem;
+}
+.product-card:hover .product-card__content,
+.product-card:hover img {
+  opacity: 0.5;
+}

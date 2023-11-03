@@ -1,0 +1,28 @@
+#home-category {
+  background-color: #f3f3f3;
+}
+.list-category {
+  background-color: #fff;
+  position: relative;
+  top: -5rem;
+  padding: 0rem 5rem;
+}
+.slide-product {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.list-category a {
+  color: #2e2c53;
+}
+.list-category img {
+  display: block;
+  margin: 0 auto;
+  width: 16rem;
+}
+.list-category p {
+  text-align: center;
+  color: #2e2c53;
+  margin-top: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+}

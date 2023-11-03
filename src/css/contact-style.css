@@ -1,0 +1,88 @@
+.box-content {
+  background: #f3f3f3;
+}
+.wrapper-box {
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  top: -4.5rem;
+  padding: 4.5rem;
+  font-size: 1.6rem;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.box-contact p {
+  text-transform: uppercase;
+  color: #bd945f;
+  font-size: 2.4rem;
+}
+.wrapper-box p {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: #bd945f;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.box-contact__btn {
+  padding: 1rem 3.2rem;
+  background-color: #bd945f;
+  color: #fff;
+  margin-top: 0.8rem;
+  border: 0.2rem solid #bd945f;
+}
+.box-contact__btn:hover {
+  opacity: 0.7;
+}
+/*  */
+
+.inputBox {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 1.6rem;
+  background: transparent;
+  border: 0.2rem solid #bd945f;
+  transition: 0.1s;
+  border-radius: 0.8rem;
+}
+
+.inputBox span {
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 8px;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  transform: translateX(30rem) translateY(-1.5rem);
+  font-size: 0.8em;
+  padding: 0.5rem 1rem;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+
+.inputBox input:valid,
+.inputBox input:focus {
+  border: 2px solid #000;
+  border-radius: 8px;
+}

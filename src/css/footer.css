@@ -1,0 +1,74 @@
+#footer {
+  background: #363636;
+}
+.allInfo a {
+  color: white;
+  font-weight: bold;
+}
+.allInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+.allInfo .info h5 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+}
+.allInfo .info > p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: Gotham-Medium;
+}
+.allInfo .list-footer li:first-child {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+.allInfo ul li {
+  color: #d6d6d6;
+  font-size: 1.6rem;
+  list-style: none;
+  display: flex;
+  margin-top: 0.8rem;
+}
+.allInfo .list-footer li .icon {
+  width: 1.5rem;
+  text-align: center;
+  margin-right: 0.8rem;
+}
+.allInfo .info > img {
+  height: 4rem;
+  margin-top: 2rem;
+}
+.allInfo .info .social a {
+  margin-right: 0.75rem;
+}
+.allInfo .info .social img {
+  height: 2.5rem;
+}
+.allInfo .info h5:after {
+  margin-top: 0.5rem;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 30%;
+  border-top: 0.5rem solid #fff;
+}
+.allInfo .info .social a:hover i,
+.allInfo .info .social a:hover img {
+  transition: all 0.1s linear;
+  cursor: pointer;
+  box-shadow: -0.5rem 0.5rem 0 #808080;
+  transform: translateY(-0.5rem);
+}
+.allInfo ul li:hover {
+  transition: all 0.3s linear;
+  cursor: pointer;
+  transform: translateX(1rem);
+}

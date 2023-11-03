@@ -1,0 +1,96 @@
+#home-aboutUs {
+  background-image: url(../pictures/ve-chung-toi/bg-about-us.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 3.2rem;
+  color: white;
+}
+#home-aboutUs:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+}
+.home-aboutUs__content {
+  text-align: center;
+  position: relative;
+}
+.aboutUs-policy__item {
+  background-color: #fff;
+  height: 10rem;
+  margin-bottom: 3.2rem;
+}
+.home-aboutUs__content h4 {
+  color: white;
+}
+.aboutUs-policy__item .img {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 3.2rem;
+}
+.aboutUs-policy__item .content {
+  padding: 2.4rem;
+}
+.aboutUs-policy__item img {
+  width: 7.2rem !important;
+}
+.aboutUs-policy__item .content .title {
+  color: #bd945f;
+  margin: 0;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.aboutUs-policy__item .content .desc {
+  font-size: 1.6rem;
+  color: #000;
+  margin: 0;
+}
+#home-aboutUs .list-img .box {
+  overflow: hidden;
+}
+.see-more a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#home-aboutUs .list-img .box .see-more {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  position: absolute;
+  bottom: -100%;
+  cursor: pointer;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s linear;
+  justify-content: center;
+}
+#home-aboutUs .list-img .box:hover .see-more {
+  bottom: 0;
+  transition-delay: 0.2s;
+  cursor: pointer;
+}
+.home-aboutUs__content p:first-child {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: left;
+}
+.home-aboutUs__content span {
+  font-size: 2.2rem;
+}
+.home-aboutUs__content p {
+  text-align: justify;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: 0;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}

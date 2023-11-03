@@ -1,0 +1,51 @@
+.banner-page {
+  position: relative;
+}
+.wrapper-box {
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  top: -3rem;
+  padding: 3rem;
+}
+.box-about .row:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.wrapper-box .about-vision p {
+  margin-top: 1.5rem;
+}
+.wrapper-box p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+.about-policy .thumbnail {
+  border: 0.2rem solid #bd945f;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  height: 7rem;
+}
+.about-policy .image {
+  max-width: 5rem;
+}
+.about-policy .content {
+  margin-left: 1rem;
+  text-align: left;
+}
+.about-policy .title {
+  color: #bd945f;
+}
+.box-about {
+  text-align: center;
+}
+.wrapper-box .about-vision p {
+  margin-top: 1.5rem;
+}
+.wrapper-box p {
+  margin-bottom: 0;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+}
+.wrapper-box .about-history p {
+  text-align: justify;
+}
